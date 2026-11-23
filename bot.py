@@ -34,15 +34,15 @@ from telegram.ext import (
 # ---------------------------------------------------------------------------
 # Configuration (Environment Variables)
 # ---------------------------------------------------------------------------
-BOT_TOKEN = os.getenv("BOT_TOKEN", "").strip()
-ADMIN_PASSWORD = os.getenv("ADMIN_PASSWORD", "0000").strip()
+BOT_TOKEN = os.getenv("9249303434:AAFb1byPYPpmv49lEShyMgWV8LXS-XD8VX4", "").strip()
+ADMIN_PASSWORD = os.getenv("0011", "0000").strip()
 DB_PATH = os.getenv("DATABASE_PATH", "degit_store.db").strip()
 
-DEFAULT_FORCE_CHANNEL = os.getenv("FORCE_JOIN_CHANNEL", "").strip()  # e.g. @yourchannel or -1001234567890
-DEFAULT_FORCE_LINK = os.getenv("FORCE_JOIN_LINK", "").strip()        # e.g. https://t.me/yourchannel
-DEFAULT_PAYMENT_CHANNEL = os.getenv("PAYMENT_CHANNEL_ID", "").strip()# e.g. -1001234567890 or @paymentchannel
-DEFAULT_UPI_ID = os.getenv("ADMIN_UPI_ID", "yourupi@oksbi").strip()
-DEFAULT_REF_COIN = int(os.getenv("PER_REFERRAL_COIN", "1"))
+DEFAULT_FORCE_CHANNEL = os.getenv("@jcodeslab", "").strip()  # e.g. @yourchannel or -1001234567890
+DEFAULT_FORCE_LINK = os.getenv("https://t.me/jcodeslab", "").strip()        # e.g. https://t.me/yourchannel
+DEFAULT_PAYMENT_CHANNEL = os.getenv("https://t.me/apparksa", "").strip()# e.g. -1001234567890 or @paymentchannel
+DEFAULT_UPI_ID = os.getenv("8016922924@ibl", "8016922924@ibl").strip()
+DEFAULT_REF_COIN = int(os.getenv("1", "1"))
 
 DEVELOPER_USERNAME = "@ai_brain_box_2"
 SUPPORT_USERNAME = "@ai_brain_box_2"
